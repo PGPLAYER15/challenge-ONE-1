@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'inter',sans-serif;
+ }
+
+body{
+    background-color: #f4f4fc;
+
+}
+ 
+header{
+    width: 100%;
+    height: 70px;
+}
+
+.Logo{
+    width: 100px;
+    height: 50px;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+main{
+    position: absolute;
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.Caja-De-Texto{
+    position: absolute;
+    left: 200px;
+    top: 14px;
+    padding-left: 100px;
+    width: 699px;
+    height: 558px;
+}
+
+.CajaDeTexto{
+    width: 98%;
+    height: 94%;
+    border: none;
+    background-color: #f4f4fc;
+    cursor: pointer;
+    color: #0a3871;
+    font-size: 32px;
+    font-weight: 400;
+    font-family: 'inter',sans-serif;
+}
+
+.CajaDeTexto::placeholder{
+    color: #0a3871;
+}
+
+.Alerta{
+    position: absolute;
+    top: 679px;
+    left: 370px;
+    display: flex;
+    color: #495057;
+}
+
+.Botones{
+    position: absolute;
+    top: 800px;
+    height: 80px;
+    padding-left: 15%;
+    top: 599px;
+    /*padding-top: 15px;*/
+}
+
+.BOTON_ENCRIPTAR{
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    background-color: #0a3871;
+    color: white;
+    font-size:  16px;
+    font-weight: 400;
+    font-family: 'inter', sans-serif;
+    border: none;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.BOTON-DESENCRIPTAR{
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    background-color: #d8dfe8;
+    color: #0a3871;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'inter', sans-serif;
+    border: 1px solid #0a3871;
+    cursor: pointer;
+}
+
+.Seccion2{
+    display: block;
+    position: relative;
+    width: 347px;
+    height: 682px;
+    right: 20px;
+    padding-right: 20px;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    border-radius: 32px;
+    box-shadow: 0px 24px 32px -8px rgba(0,0, 0, 0.50);
+}
+
+.Monito{
+    position: absolute;
+    left: 6px;
+    top: 114px;
+    box-sizing: border-box;
+    padding-top:  1px;
+    height: 80px;
+}
+
+.Parrafo {
+    position: absolute;
+    box-sizing: border-box;
+    top: 449px;
+    left: 28px;
+}
+
+.Parrafo h3{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'inter', sans-serif;
+    color: #343A40;
+}
+
+.Parrafo p{
+    font-family: 'inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #495057;
+    padding-top: 20px;
+}
+
+.RESULTADO{
+    position: absolute;bottom: 330px;
+    width: 306px;
+    height: 567px;
+    top:17px;
+    box-sizing: border-box;
+    margin-left: 29px;
+
+}
+
+.RESULTADO p{
+    color: #495057;
+    font-size: 25px;
+}
+
+.BOTON_COPIAR{
+    display: flex;
+    position: absolute;
+    bottom: 400px;
+    top: 548px;
+    background-color: aqua;
+    padding-left: 26px;
+}
+
+.Boton-Copiar{
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    background-color: #ffffff;
+    color: #0a3871;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'inter', sans-serif;
+    border: 1px solid #0a3871;
+    cursor: pointer;
+    position: relative;
+    top: 50px;
+    right: 16px;
+}
+
+.ocultar{
+    display: none;
+}
